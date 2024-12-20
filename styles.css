@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cutive&family=Kumbh+Sans:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Syne:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cutive&family=Kumbh+Sans:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Syne:wght@400..800&display=swap');
+*{
+    background-color: rgba(245, 245, 239, 1);
+    margin: 0;
+}
+.header{
+    margin: 0 3.333vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.111vw 0;
+}
+.logo{
+    font-family: Syne;
+    font-size: 2.917vw;
+    font-weight: 800;
+    line-height: 2.917vw;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: rgba(29, 34, 27, 1);
+}
+.links{
+    display: flex;
+    gap: 2.222vw;
+}
+a{
+    text-decoration: none;
+    font-family: Cutive;
+    font-size: 1.944vw;
+    font-weight: 400;
+    line-height: 2.222vw;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: rgba(29, 34, 27, 1);
+}
+.divider{
+    border: 1px solid rgba(23, 52, 9, 0.16);
+}
+.container{
+    padding: 3.333vw 0;
+    margin: 0 3.333vw;
+}
+.page1{
+    display: flex;
+    flex-direction: column;
+    padding: 6.667vw 0;
+    gap: 3.333vw;
+}
+.page1-title{
+    font-family: Cutive;
+    font-size: 8.333vw;
+    font-weight: 400;
+    line-height: 8.333vw;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+.img1{
+    width: 100%;
+    border-radius: 1.528vw;
+}
+.page2{
+    padding: 6.667vw 0;
+}
+.page2-text{
+    font-family: Cutive;
+    font-size: 3.333vw;
+    font-weight: 400;
+    line-height: 3.611vw;
+    letter-spacing: -0.01em;
+    text-align: left;
+    width: 46.667vw;
+}
+.page3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3.333vw;
+    padding: 3.333vw 0;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.projectTitle{
+    font-family: Kumbh Sans;
+    font-size: 1.389vw;
+    font-weight: 500;
+    line-height: 1.667vw;
+    text-align: left;
+}
+.project_des{
+    font-family: Kumbh Sans;
+    font-size: 1.181vw;
+    font-weight: 500;
+    line-height: 1.667vw;
+    text-align: left;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 3.333vw;
+}
+.page4{
+    padding: 3.333vw 0;
+    display: flex;
+    justify-content: right;
+}
+.des{
+    font-family: Kumbh Sans;
+    font-size: 1.667vw;
+    font-weight: 500;
+    line-height: 2.222vw;
+    letter-spacing: -0.005em;
+    width: 45vw;
+}
+.last{
+    display: flex;
+    padding: 3.333vw 0;
+    gap: 3.333vw;
+    justify-content: center;
+    flex-direction: column;
+}
+.head{
+    font-family: Cutive;
+    font-size: 3.333vw;
+    font-weight: 400;
+    line-height: 3.611vw;
+    letter-spacing: -0.01em;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    gap: 3.333vw;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(218, 218, 202, 0.4);
+    width: 20vw;
+    border: 2px solid rgba(23, 52, 9, 0.16);
+    padding: 1.667vw;
+    gap: 1.111vw;
+    border-radius: 1.111vw;
+}
+.name-container{
+    display: flex;
+    gap: 0.833vw;
+    background-color: transparent;
+    margin: 0 1.333vw;
+}
+.avatar{
+    border-radius: 50%;
+    width: 3.333vw;
+    height: 3.333vw;
+    background-color: transparent;
+}
+.n{
+    background-color: transparent;
+}
+.name{
+    font-family: Kumbh Sans;
+    font-size: 1.042vw;
+    font-weight: 600;
+    line-height: 1.389vw;
+    text-align: left;
+    background-color: transparent;
+    color: rgba(29, 34, 27, 1);
+}
+.designation{
+    font-family: Kumbh Sans;
+    font-size: 1.042vw;
+    font-weight: 500;
+    line-height: 1.389vw;
+    text-align: left;
+    background-color: transparent;
+    color: rgba(29, 34, 27, 0.62);
+}
+.comment-container{
+    background-color: transparent;
+    padding: 0 0 0.556vw 0;
+    gap: 0.833vw;
+    opacity: 80%;
+    display: flex;
+    margin: 0 3.332vw;
+    gap: 2vw;
+}
+.line{
+    height: auto;
+    border-radius: 1px;
+    border: 1px solid rgba(23, 52, 9, 0.16);
+    text-align: center;
+    background-color: transparent;
+}
+.comment{
+    width: 12.5vw;
+    font-family: Kumbh Sans;
+    font-size: 1.389vw;
+    font-weight: 500;
+    line-height: 1.667vw;
+    text-align: left;
+    background-color: transparent;
+}
+.footer {
+    margin: 0 3.333vw;
+    padding-top: 6.667vw;
+    padding-bottom: 1.667vw;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+.pagelink{
+    font-family: Cutive;
+    font-size: 1.944vw;
+    font-weight: 400;
+    line-height: 2.222vw;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+.contact{
+    padding: 0.833vw 1.667vw 0.833vw 1.667vw;
+    border-radius: 8px;
+    border: 2px solid rgba(23, 52, 9, 0.16);
+    font-family: Kumbh Sans;
+    font-size: 1.389vw;
+    font-weight: 600;
+    line-height: 1.667vw;
+    text-align: left;
+}
